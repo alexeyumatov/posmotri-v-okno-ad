@@ -65,16 +65,16 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-block-end: 18px;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 18px;
 }
 
 .result__video {
-  inline-size: 100%;
-  block-size: 100%;
   object-fit: cover;
   object-position: center;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 
@@ -112,17 +112,17 @@ ol {
 }
 
 .search-form__textfield {
-  min-inline-size: 225px;
-  border-block: 1px solid #fff;
   border-inline: transparent;
-  padding-block: 1px;
+  border-block: 1px solid #fff;
   padding-inline: 0;
+  padding-block: 1px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 15px;
   background-color: transparent;
+  min-inline-size: 225px;
   appearance: none;
 }
 
@@ -165,11 +165,11 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  inline-size: 19px;
-  block-size: 19px;
   border: 1px #fff solid;
   padding: 1px;
   cursor: pointer;
+  inline-size: 19px;
+  block-size: 19px;
 }
 
 
@@ -178,16 +178,16 @@ ol {
 .search-form__checkbox:active ~ .search-form__pseudo-checkbox::after {
   content: "";
   display: block;
+  background-color: #fff;
   inline-size: 15px;
   block-size: 15px;
-  background-color: #fff;
 }
 
 
 .button {
   border: 1px white solid;
-  padding-block: 6px;
   padding-inline: 0;
+  padding-block: 6px;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
@@ -240,8 +240,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  block-size: 298px;
   overflow-y: auto;
+  block-size: 298px;
 }
 
 .content__list-item {
@@ -265,8 +265,8 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  max-inline-size: 191px;
   padding-block-start: 2px;
+  max-inline-size: 191px;
 }
 
 .content__card-link {
@@ -296,10 +296,10 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  inline-size: 194px;
-  block-size: 103px;
   object-fit: cover;
   object-position: center;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .content__card-link_current {
